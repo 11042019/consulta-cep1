@@ -6,9 +6,10 @@ let consultar = document.getElementById("consultar");
 let limpar = document.querySelector("#limpar");
 
 function limpa() {
-  endereco.value = document.textContent = "";
-  bairro.value = document.textContent = "";
-  cidade.value = document.textContent = "";
+  cep.value = ''
+  endereco.value = ''
+  bairro.value = ''
+  cidade.value = ''
 }
 
 limpar.addEventListener("click", limpa);
